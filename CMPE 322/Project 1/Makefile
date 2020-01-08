@@ -1,2 +1,2 @@
-all: 2014400222.c
+all: myShell.c
 	gcc myShell.c -o myShell
