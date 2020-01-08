@@ -108,7 +108,7 @@ void parse_and_execute(char *line)
 {
 	// Checks whether the "exit" command is inputted. If yes, the execution of the shell ends.
 	if(strcmp(line, "exit") == 0) {
-		exit(EXIT_FAILURE);
+		exit(EXIT_SUCCESS);
 	}
 	
 	// To be able execute the inputted command without switching to that process, this line forks the current process.
